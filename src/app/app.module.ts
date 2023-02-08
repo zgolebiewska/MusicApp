@@ -6,8 +6,8 @@ import { HomeComponent } from './home/home.component';
 import {HomeModule} from "./home/home.module";
 import {HttpClientModule} from "@angular/common/http";
 import {ComposersService} from "./api/composers/composers.service";
-import { NavbarComponent } from './navbar/navbar.component';
-import {NavbarModule} from "./navbar/navbar.module";
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import {NavbarModule} from "./shared/navbar/navbar.module";
 
 @NgModule({
   declarations: [
